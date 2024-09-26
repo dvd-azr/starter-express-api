@@ -10,7 +10,7 @@ module.exports = {
     production: {
       user: "pm2",
       host: ["192.168.0.102", "192.168.0.103"],
-      port: ["22", "3333"],
+      port: ["3333", "22"],
       // GIT remote/branch
       ref: "origin/main",
       // GIT remote
