@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "starter-express-api",
-      script: "index.js",
+      script: "./index.js",
       cwd: "/home/pm2/app",
     },
   ],
