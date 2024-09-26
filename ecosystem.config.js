@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "starter-express-api",
       script: "./index.js",
-      cwd: "/home/pm2/app/starter-express-api",
+      cwd: "/home/pm2/app/starter-express-api/source",
     },
   ],
   deploy: {
