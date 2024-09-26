@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "starter-express-api",
       script: "./index.js",
-      cwd: "/home/pm2/app",
+      cwd: "/home/pm2/app/starter-express-api",
     },
   ],
   deploy: {
@@ -16,7 +16,7 @@ module.exports = {
       // GIT remote
       repo: "git@github.com:dvd-azr/starter-express-api.git",
       // Command run after pull source code
-      path: "/home/pm2/app",
+      path: "/home/pm2/app/starter-express-api",
       "post-deploy": "npm install && pm2 reload ecosystem.config.js",
     },
   },
