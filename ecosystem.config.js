@@ -16,6 +16,7 @@ module.exports = {
       // GIT remote
       repo: "git@github.com:dvd-azr/starter-express-api.git",
       // Command run after pull source code
+      path: "/home/pm2/app",
       "post-deploy": "npm install && pm2 reload ecosystem.config.js",
     },
   },
